@@ -1,3 +1,3 @@
 <<<<<<< HEAD
 # 2020XXXX	Sunwoo Kim
-# Kookmin Univ. SW
+# Kookmin Univ. computer science
