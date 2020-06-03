@@ -1,2 +1,3 @@
-# 20203039	Sunwoo Kim
+<<<<<<< HEAD
+# 2020XXXX	Sunwoo Kim
 # Kookmin Univ. SW
