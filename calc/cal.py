@@ -8,11 +8,14 @@ def application(environ, start_response):
     S=0 
     P=0
     if '' not in [a, b]:
-        a, b = int(a), int(b)
+	if a.isdigit() and b.digit():
+            a, b = int(a), int(b)
 
-	S=a+b
-	P = a*b
-	response_body = html+'sum: '+str(S)+', product:'+str(P)
+            S=a+b
+            P = a*b
+            response_body = html+'sum: '+str(S)+', product:'+str(P)
+	else:
+	    response_body = html+'This supports only int value
     else:
 	response_body = html+'There is(are) not inputted value(s)'
     start_response('200 OK', [
