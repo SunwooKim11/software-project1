@@ -12,7 +12,9 @@ def application(environ, start_response):
 
 	S=a+b
 	P = a*b
-    response_body = html+'sum: '+str(S)+', product:'+str(P)
+	response_body = html+'sum: '+str(S)+', product:'+str(P)
+    else:
+	response_body = html+'There is(are) not inputted value(s)'
     start_response('200 OK', [
         ('Content-Type', 'text/html'),
         ('Content-Length', str(len(response_body)))
